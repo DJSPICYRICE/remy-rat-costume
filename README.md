@@ -61,7 +61,7 @@ Printed on a **Bambu Lab A1 mini**.
 | Left arm | 75°–135° |
 | Right arm | 45°–105° |
 
-Change the `random(min, max)` values in the sketch to tune these.
+I recommend zeroing the servo first and then screwing the arms in carefully without twisting the shaft. Or change the `random(min, max)` values in the sketch to tune these.
 
 ## Uploading the code
 
