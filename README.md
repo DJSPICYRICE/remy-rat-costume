@@ -4,6 +4,14 @@ A fan-made, wearable Remy figure from *Ratatouille* (made for Halloween, October
 
 Made by Mouli Grandhi.
 
+## Photos
+
+<p align="center">
+  <img src="media/costume.jpg" alt="Remy perched on my head with LED eyes lit, worn with a chef's coat" width="360">
+  &nbsp;&nbsp;
+  <img src="media/remy_closeup.jpg" alt="Close-up of the 3D-printed Remy body with LED eyes" width="220">
+</p>
+
 ## Demo
 
 *Video coming soon.*
@@ -12,7 +20,7 @@ Made by Mouli Grandhi.
 
 - **Independent arm motion**: each arm servo picks a new random angle every 800 ms, so the movement looks natural instead of looping
 - **Non-blocking code**: uses `millis()` timing instead of `delay()`, so more features can be added without stalling the arms
-- **LED outputs**: two PWM-capable LED channels (pins 9 and 10)
+- **Glowing eyes**: two LEDs set into the head, on PWM pins 9 and 10
 
 ## Hardware
 
@@ -66,6 +74,7 @@ Change the `random(min, max)` values in the sketch to tune these.
 ```
 firmware/remy_ratatouille_cs12/remy_ratatouille_cs12.ino   # Arduino sketch
 models/                                                     # STL files for printing
+media/                                                      # Photos
 ```
 
 ## Notes
