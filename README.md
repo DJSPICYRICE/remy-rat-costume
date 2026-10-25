@@ -14,7 +14,11 @@ Made by Mouli Grandhi.
 
 ## Demo
 
-*Video coming soon.*
+<p align="center">
+  <img src="media/demo.gif" alt="Close-up of Remy's arms moving and LED eyes glowing" width="260">
+</p>
+
+[Full demo video (MP4)](media/demo.mp4)
 
 ## Features
 
@@ -61,7 +65,7 @@ Printed on a **Bambu Lab A1 mini**.
 | Left arm | 75°–135° |
 | Right arm | 45°–105° |
 
-I recommend zeroing the servo first and then screwing the arms in carefully without twisting the shaft. Or change the `random(min, max)` values in the sketch to tune these.
+Change the `random(min, max)` values in the sketch to tune these.
 
 ## Uploading the code
 
